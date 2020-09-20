@@ -1,0 +1,152 @@
+/* Initial BKGD Setup */
+body
+{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.80em;
+  line-height: 1.2em;
+  color: white;
+  background-image: url(".github/Images/bkgd.jpg");
+}
+
+/* Header and Special Font Styling */
+header
+{
+  font-family: 'Alfa Slab One', cursive;
+  text-align:center;
+  color: #F43722;
+  margin: 2% auto;
+}
+.decorativeFont1
+{
+  font-family: 'Nosifer', cursive;
+  font-size: 1.5em;
+  color: #F49422;
+}
+.decorativeFont2
+{
+  font-size: 1.75em;
+  color: #86C95B;
+}
+.decorativeFont3
+{
+  font-family: 'Nosifer', cursive;
+}
+
+/* Text - Section Styling */
+.Text-Only-Articles
+{
+  padding: 0 4%;
+}
+
+
+/* Must-Dos - Section Styling */
+.My-First-Flex-Container
+{
+  display: flex;
+}
+.Flex-Things-to-Do-Ohio-Halloween
+{
+  flex: 2 0 0;
+  border: 2px #920811 solid;
+  margin: 0 0.1% 0 1%;
+  border-radius: 15px 0px 0px 15px;
+  text-align:center;
+  background-color: rgb(102, 0, 5, 0.5);
+}
+
+.Links-to-External-Sources
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Links-to-External-Sources div
+{
+  flex: 1 0 50%;
+  background-color: #333;
+}
+
+.Links-to-External-Sources a:hover
+{
+  color: #DBA1AC;
+}
+
+.Links-to-External-Sources img
+{
+  width: 100%;
+
+}
+.Links-to-External-Sources a
+{
+  color: white;
+  text-decoration: none;
+}
+.flex-Halloween-Events
+{
+  border-radius: 0px 0px 0px 15px;
+}
+
+/* Are you Ready - Section Styling */
+.Flex-Halloween-Must-Haves
+{
+  flex: 1 0 0;
+  border: 2px #920811 solid;
+  border-radius: 0px 15px 15px 0px;
+  margin: 0 1% 0 0.1%;
+  background-color: rgb(102, 0, 5, 0.5);
+}
+.Flex-Halloween-Must-Haves h2
+{
+  text-align: center;
+}
+.Flex-Halloween-Must-Haves div
+{
+  content: "";
+  clear: both;
+  display: table;
+  margin: 0 3%;
+}
+.Flex-Halloween-Must-Haves a
+{
+  color: white;
+  text-decoration: none;
+}
+.Flex-Halloween-Must-Haves a:hover
+{
+  color: #DBA1AC;
+}
+.Flex-Halloween-Must-Haves img
+{
+  float: left;
+  margin: 0 3% 0 0;
+  width: 30%;
+}
+
+/* Footer Styling */
+#Copyright-Information
+{
+  background-color: #333031;
+  padding: 0 4%;
+  font-size: 0.1 em;
+  line-height: 0.5em;
+  position: absolute;
+  bottom: 0;
+  width:100%;;
+  z-index: 2;
+  box-sizing: border-box;
+}
+#Copyright-Information a
+{
+  color: #F43722;
+}
+
+#Copyright-Information .p1
+{
+  float: left;
+}
+
+#Copyright-Information .p2
+{
+  float: right;
+}
+
